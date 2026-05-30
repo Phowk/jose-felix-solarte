@@ -12,9 +12,7 @@ root {
 body {
     margin: 0;
     height: 100vh;
-    overflow: hidden;
     font-family: 'Segoe UI', sans-serif;
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("imgs/pasto.jpg");
     background-size: cover;
     background-position: center;
