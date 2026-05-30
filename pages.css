@@ -1,0 +1,134 @@
+:root {
+    --primary: #3D2B5B;
+    --secondary: #2B1D42;
+    --accent: #F2B451;
+    --light: #FFF8EE;
+}
+
+body {
+
+    font-family: 'Segoe UI', sans-serif;
+
+    background-image:
+        linear-gradient(rgba(43, 29, 66, .85),
+            rgba(61, 43, 91, .85)),
+        url("imgs/pasto.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+.page-header {
+
+    padding: 60px 0 30px 0;
+    text-align: center;
+}
+
+.page-title {
+
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.divider {
+
+    width: 250px;
+    height: 4px;
+    background: var(--accent);
+
+    margin: 20px auto;
+}
+
+.profile-card {
+
+    background: rgba(255, 255, 255, .08);
+
+    backdrop-filter: blur(15px);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    text-align: center;
+}
+
+.profile-card img {
+
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    border: 4px solid var(--accent);
+}
+
+.info-card {
+
+    background: #3D2B5B;
+
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, .15);
+}
+
+.info-card h3 {
+
+    color: var(--accent);
+
+    border-left: 6px solid var(--accent);
+
+    padding-left: 15px;
+
+    margin-bottom: 20px;
+}
+
+.btn-back {
+
+    background: var(--accent);
+
+    color: var(--primary);
+
+    font-weight: 600;
+
+    border: none;
+
+    padding: 12px 30px;
+
+    border-radius: 30px;
+}
+
+.btn-back:hover {
+
+    background: #ffd17a;
+}
+
+.btn-home {
+    background: transparent;
+    color: var(--accent);
+    border: 2px solid var(--accent);
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-home:hover {
+    background: var(--accent);
+    color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(242, 180, 81, 0.4);
+}
